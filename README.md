@@ -42,6 +42,11 @@ To Create An Account, Accept only post request with three parameter
 * Email
 * Password
 
+The end point is to Create or Register an accout is `createUser`
+
+Full Demo Url <a href="http://socialcodia.net/HostApi/public/createUser">http://socialcodia.net/HostApi/public/createUser</a>
+
+
 An email verification will be send to user email address when they registered an account into the system.
 
 In verification email the verification link will be like this.
@@ -60,6 +65,9 @@ In verification email the verification link will be like this.
     <img src="https://i.imgur.com/AGeCYFR.png" >
 </p>
 
+Full Demo Url <a href="http://api.socialcodia.ml/verifyEmail/wdpWwmufazmit4Py2aYd7MsocialcodiavknYY3bKxS7okyO9NgpYTmufazmiTGsocialcodiaE=/$2y$10$GWEv1cnJo2YdGbmo4mrwA.LNsocialcodiai4sj8.EdxIZuyWX3fjRHEiBrBX2S">http://api.socialcodia.ml/verifyEmail/wdpWwmufazmit4Py2aYd7MsocialcodiavknYY3bKxS7okyO9NgpYTmufazmiTGsocialcodiaE=/$2y$10$GWEv1cnJo2YdGbmo4mrwA.LNsocialcodiai4sj8.EdxIZuyWX3fjRHEiBrBX2S</a>
+
+
 ## Send Email Verification Code Again
 
 To Send The Email Verification Code again, Accept only post request with only one parameter
@@ -69,6 +77,9 @@ User can make the send email verification link code if there email address is no
 
 The end point of send email verification code is `sendEmailVerification`
 
+Full Demo Url <a href="http://socialcodia.net/HostApi/public/updatePassword">http://socialcodia.net/HostApi/public/updatePassword</a>
+
+
 ## Login Into Account
 
 To Login into Account, Accept only post request with two parameter
@@ -76,6 +87,8 @@ To Login into Account, Accept only post request with two parameter
 * Password
 
 The end point of login is `login`
+Full Demo Url <a href="http://socialcodia.net/HostApi/public/login">http://socialcodia.net/HostApi/public/login</a>
+
 
 ## Update Account Password
 
@@ -85,11 +98,12 @@ To update or changed the current password, Accept only post request with three p
 * newPassword
 
 The end point of update password is `updatePassword`
+Full Demo Url <a href="http://socialcodia.net/HostApi/public/updatePassword">http://socialcodia.net/HostApi/public/updatePassword</a>
 
 an verification code will be sent to user email address when they successfull updated their password.
 
 ### At the end
 
-You don't need to worry about that things, you need to change the code in `Constants.php` Php
+you don't need to worry about that things, you need to change the code in `Constants.php` Php
 
 That's it! Now go build something cool.
